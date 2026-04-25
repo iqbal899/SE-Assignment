@@ -91,10 +91,10 @@ The following diagram illustrates the Agile lifecycle for the Taxi Booking Syste
 
 ### Diagram References
 
-For reference and editing, the original diagram is available below:
+I have added the original excalidraw file and it link for reference :
 
 - **Excalidraw File:** `taxi-booking-system.excalidraw`
-- **Excalidraw Link:** [Open Diagram](PASTE_YOUR_EXCALIDRAW_LINK_HERE)
+- **Excalidraw Link:** [Open Diagram](https://excalidraw.com/#json=f3bWbzWOhmlCcq1IBhae9,9SEiVCTXXAy_nJfQ27dJHg)
 
 > The Excalidraw file can be opened and edited using https://excalidraw.com
 
@@ -115,7 +115,7 @@ For reference and editing, the original diagram is available below:
 
 ### Agile Process Flow
 
-Product Backlog → Sprint Planning → Sprint (2–4 weeks) → Daily Scrum → Sprint Review → Sprint Retrospective → Repeat
+Product Backlog -> Sprint Planning -> Sprint (2–4 weeks) -> Daily Scrum -> Sprint Review -> Sprint Retrospective -> Repeat
 
 ---
 
@@ -125,9 +125,3 @@ The Agile SDLC model is the most appropriate choice for developing a Taxi Bookin
 
 Agile ensures that working software is delivered early and improved continuously, reducing risks and aligning the product with real market needs. Models like Waterfall are too rigid for such a product, while Spiral is too expensive and formal. Therefore, Agile stands as the clear and justified choice for this project.
 
----
-
-## Diagram Placement
-
-```md
-![Agile Diagram](./taxi-booking-system.png)
