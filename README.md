@@ -9,8 +9,9 @@
 |--------------------|------------------------------------------|
 | Course             | Software Engineering                     |
 | Assignment Type    | Individual                               |
-| Time               | 48 Hours                                 |
 | Topic              | SDLC Model Selection & Justification     |
+| Submitted by             | Jinnatul Iqbal     |
+| Roll Number        | 230710007020    |
 
 ---
 
