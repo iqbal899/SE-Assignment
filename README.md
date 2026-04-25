@@ -1,5 +1,9 @@
-# Online Examination System  
-## SDLC Model: Waterfall Model  
+# Taxi Booking System  
+## SDLC Model: Agile Methodology  
+
+---
+
+## Project Details
 
 | Field              | Details                                  |
 |--------------------|------------------------------------------|
@@ -12,133 +16,118 @@
 
 ## 1. Introduction
 
-An Online Examination System is a structured digital platform that allows educational institutions to conduct examinations over the internet. It manages the full examination lifecycle — from question paper creation and candidate registration to real-time exam delivery, automated evaluation, and result publication.
+A Taxi Booking System is a technology-driven platform that enables users to book cabs through a mobile or web application in real-time. It connects passengers with nearby drivers, handles fare calculations, live GPS tracking, payment processing, and ride history management.
 
-The system typically includes modules for question bank management, randomized paper generation, anti-cheating mechanisms (tab-switch detection, full-screen enforcement), timer management, result computation, and report generation. The system is used by universities, entrance boards, and competitive exam authorities where accuracy, security, and reliability are paramount.
-
----
-
-## 2. Selected SDLC Model: Waterfall
-
-The Waterfall SDLC model has been selected for the Online Examination System. The Waterfall model is a linear-sequential software development process in which development flows downward through clearly defined phases:  
-
-**Requirements → System Design → Implementation → Testing → Deployment → Maintenance**
-| Phase No. | Phase Name        |
-|----------|------------------|
-| 1        | Requirements      |
-| 2        | System Design     |
-| 3        | Implementation    |
-| 4        | Testing           |
-| 5        | Deployment        |
-| 6        | Maintenance       |
-
-Each phase must be completed and verified before moving to the next.
-
-### Model Details
-
-- **Model:** Waterfall (Linear Sequential)  
-- **Development Style:** Phase-by-phase, top to bottom  
-- **Documentation:** Extensive — each phase documented  
-- **User Involvement:** Primarily at requirements phase  
-- **Best For:** Well-defined, stable requirement projects  
+Modern examples like Ola and Uber demonstrate how such systems must evolve continuously based on user feedback, market demands, and technological innovation. The system must integrate with maps APIs, payment gateways, and push notification services, making it a highly dynamic and evolving software product.
 
 ---
 
-## 3. Justification (Why Waterfall?)
+## 2. Selected SDLC Model: Agile
 
-### 3.1 Stable and Well-Defined Requirements
+The Agile SDLC model has been selected for the Taxi Booking System. Agile is an iterative and incremental approach to software development that emphasizes collaboration, customer feedback, and small, rapid releases. Development occurs in short cycles called 'sprints' (typically 2–4 weeks each), allowing the team to adapt to changing requirements at any stage.
 
-An Online Examination System has clearly understood requirements that do not change significantly once defined. The exam board knows in advance: how many candidates will appear, what subjects are covered, what exam formats are needed, and what security protocols must be followed. With stable requirements, Waterfall's rigid phase structure is an advantage rather than a limitation.
+### Model Characteristics
 
-### 3.2 Strict Quality and Documentation Standards
+| Aspect              | Details                                  |
+|--------------------|------------------------------------------|
+| Model              | Agile (Scrum Framework)                  |
+| Sprint Duration    | 2–4 weeks per sprint                     |
+| Key Benefit        | Continuous delivery & adaptability       |
+| User Involvement   | High — feedback after every sprint       |
+| Best For           | Dynamic, market-driven applications      |
 
-Educational and government examination bodies require rigorous documentation at every stage for auditing and accountability. Waterfall mandates complete documentation of requirements, design specifications, test plans, and user manuals before moving to the next phase. This ensures a verifiable paper trail — essential for institutions governed by regulatory bodies.
+---
 
-### 3.3 Low Risk of Changing Requirements Mid-Project
+## 3. Justification (Why Agile?)
 
-Unlike a startup product, an examination system is built based on established educational standards and exam rules. The probability of a mid-project scope change is very low, making Waterfall highly suitable. The model's inability to easily accommodate changes mid-cycle is not a drawback here — it is aligned with the project's stability.
+### 3.1 Evolving & Unstable Requirements
 
-### 3.4 Clear Project Milestones and Deliverables
+A taxi booking application operates in a highly competitive market where requirements frequently change. New features such as ride-sharing pools, scheduled rides, EV filtering, in-app chat, and SOS buttons emerge as market trends shift. Agile accommodates these changes gracefully since each sprint can incorporate new user stories without disrupting the entire project timeline.
 
-Waterfall provides clear milestones: requirements approval, design freeze, code complete, test complete, and deployment. For an institution that must plan around academic calendars and regulatory deadlines, having predictable, time-bound deliverables is critical. Waterfall's phase-gate approach ensures each deliverable is reviewed and signed off before proceeding.
+### 3.2 High User Involvement & Continuous Feedback
 
-### 3.5 Testing Phase Can Be Comprehensive
+Taxi apps require constant validation from real end-users — both riders and drivers. Agile enables the product team to release working increments (e.g., login → booking flow → payment) and collect feedback after each sprint. This ensures the product aligns with actual user needs rather than assumptions made at the beginning.
 
-Since all features are built before testing begins, the testing phase in Waterfall can be exhaustive and systematic. For an examination system where a single bug could invalidate thousands of results, comprehensive pre-deployment testing is essential. A dedicated testing phase allows the team to conduct unit testing, integration testing, load testing (for concurrent users), and security penetration testing methodically.
+### 3.3 Risk Management Through Incremental Delivery
+
+Building and deploying the system in sprints means bugs and integration issues are caught early. For example, the GPS tracking module can be tested independently before integrating with payment. This reduces the risk of a catastrophic failure at the end of the project, which is common in sequential models.
+
+### 3.4 High Complexity & Third-Party Integrations
+
+The system integrates Google Maps API, Stripe/Razorpay for payments, Firebase for real-time tracking, and SMS gateways. Agile sprints allow the team to integrate and test one API at a time, incrementally building complexity rather than attempting all integrations simultaneously at the end.
+
+### 3.5 Competitive Market & Fast Time-to-Market
+
+In a market dominated by Ola and Uber, time-to-market is critical. Agile allows a Minimum Viable Product (MVP) — basic booking and ride-tracking — to be released early, while premium features like loyalty points, carpooling, and analytics dashboards are added in later sprints.
 
 ---
 
 ## 4. Comparison with Other Models
 
-### 4.1 Agile Model — Not Ideal
+### 4.1 Waterfall Model — Not Suitable
 
-While Agile is excellent for dynamic products, it is less suitable for an Online Examination System because:
+| Reason | Explanation |
+|--------|------------|
+| Changing Requirements | Market demands evolve constantly |
+| Late Feedback | No working software until late stages |
+| High Cost of Changes | Requires restarting earlier phases |
+| Late Testing | Integrations tested too late |
 
-1. Examination systems require complete, integrated software before going live — partial delivery via sprints could lead to incomplete features being exposed to students.  
-2. Agile's continuous change accommodation is unnecessary since exam requirements rarely change mid-project.  
-3. Agile requires constant stakeholder involvement, which is difficult for exam authorities with bureaucratic decision-making processes.  
-4. Security and compliance reviews are harder to conduct in short sprints.  
+### 4.2 Spiral Model — Less Suitable
 
-### 4.2 Incremental Model — Not Suitable
-
-The Incremental model delivers functionality in portions (increments). For an examination system:
-
-1. The system must be fully integrated before any exam is conducted — you cannot run an exam with only half the features available.  
-2. Security mechanisms, result calculation, and paper delivery must all be present simultaneously, making incremental deployment impractical.  
-3. Validation across all modules must happen together to ensure data consistency — incremental releases complicate this.  
+| Reason | Explanation |
+|--------|------------|
+| High Overhead | Requires detailed risk analysis every cycle |
+| Expensive | Not suitable for startup-style apps |
+| Slower Delivery | Lacks Agile’s rapid sprint cycles |
 
 ---
 
-## 5. Waterfall SDLC Diagram
+## 5. Agile SDLC Diagram
 
-The following diagram illustrates the Waterfall lifecycle for the Online Examination System:
+The following diagram illustrates the Agile lifecycle for the Taxi Booking System. Each sprint produces a working increment of the software.
 
-![Waterfall Diagram](online-examination-system.png)
+![Agile Diagram](taxi-booking-system.png)
 
 ### Diagram References
 
-For reference , the original diagram created using excalidraw is available below:
+For reference and editing, the original diagram is available below:
 
-- **Excalidraw File:** `exam-system.excalidraw`
-- **Excalidraw Link:** [Open Diagram](https://excalidraw.com/#json=Q0QE4dyWBw4wLMh-EaiuM,N8cNRM19LVe6ctoKwoVKUg)
+- **Excalidraw File:** `taxi-booking-system.excalidraw`
+- **Excalidraw Link:** [Open Diagram](PASTE_YOUR_EXCALIDRAW_LINK_HERE)
 
-> The Excalidraw file can be opened using https://excalidraw.com
-
-### Phase Breakdown
-
-**Phase 1**  
-Requirements Gathering — Exam rules, user types, security needs, question formats  
-
-**Phase 2**  
-System Design — ER diagrams, UI wireframes, database schema, system architecture  
-
-**Phase 3**  
-Implementation — Coding all modules: auth, question bank, exam engine, timer, grading  
-
-**Phase 4**  
-Testing — Unit, integration, load, security, and UAT testing  
-
-**Phase 5**  
-Deployment — System goes live for actual examinations  
-
-**Phase 6**  
-Maintenance — Bug fixes, performance monitoring, annual updates  
+> The Excalidraw file can be opened and edited using https://excalidraw.com
 
 ---
 
-### Flow
+### Sprint Breakdown
 
-Requirements -> Design -> Implementation -> Testing -> Deployment -> Maintenance  
-(each phase completes before the next begins)
+| Sprint   | Feature                          |
+|----------|----------------------------------|
+| Sprint 1 | User Authentication & Profile    |
+| Sprint 2 | Booking Flow & Map Integration   |
+| Sprint 3 | Driver App & GPS Tracking        |
+| Sprint 4 | Payment Gateway Integration      |
+| Sprint 5 | Ratings & Ride History           |
+| Sprint 6 | Admin Dashboard                  |
+
+---
+
+### Agile Process Flow
+
+Product Backlog → Sprint Planning → Sprint (2–4 weeks) → Daily Scrum → Sprint Review → Sprint Retrospective → Repeat
 
 ---
 
 ## 6. Conclusion
 
-The Waterfall SDLC model is the most appropriate choice for developing an Online Examination System. The system has well-defined, stable requirements set by educational authorities; demands rigorous documentation for audit compliance; requires comprehensive testing before any live examination; and must be fully functional before deployment.
+The Agile SDLC model is the most appropriate choice for developing a Taxi Booking System. Given the highly dynamic nature of the ride-hailing market, the need for continuous user feedback, complex third-party integrations, and the competitive pressure to launch quickly, Agile's iterative sprint-based approach provides the ideal framework.
 
-These characteristics align perfectly with Waterfall's sequential, phase-driven, documentation-heavy approach. Agile's flexibility is unnecessary given the stability of requirements, and incremental delivery would create operational risks in an examination context. Waterfall's structured and disciplined methodology ensures the system is built correctly the first time — which is exactly what an examination platform demands.
+Agile ensures that working software is delivered early and improved continuously, reducing risks and aligning the product with real market needs. Models like Waterfall are too rigid for such a product, while Spiral is too expensive and formal. Therefore, Agile stands as the clear and justified choice for this project.
 
 ---
 
+## Diagram Placement
 
+```md
+![Agile Diagram](./taxi-booking-system.png)
