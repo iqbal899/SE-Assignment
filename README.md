@@ -95,6 +95,15 @@ The following diagram illustrates the Waterfall lifecycle for the Online Examina
 
 ![Waterfall Diagram](online-examination-system.png)
 
+### Diagram References
+
+For reference and editing, the original diagram is available below:
+
+- **Excalidraw File:** `exam-system.excalidraw`
+- **Excalidraw Link:** [Open Diagram](https://excalidraw.com/#json=Q0QE4dyWBw4wLMh-EaiuM,N8cNRM19LVe6ctoKwoVKUg)
+
+> The Excalidraw file can be opened and edited using https://excalidraw.com
+
 ### Phase Breakdown
 
 **Phase 1**  
