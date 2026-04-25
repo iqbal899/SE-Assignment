@@ -1,10 +1,12 @@
 # Online Examination System  
 ## SDLC Model: Waterfall Model  
 
-**Course:** Software Engineering  
-**Assignment Type:** Individual  
-**Time:** 48 Hours  
-**Topic:** SDLC Model Selection & Justification  
+| Field              | Details                                  |
+|--------------------|------------------------------------------|
+| Course             | Software Engineering                     |
+| Assignment Type    | Individual                               |
+| Time               | 48 Hours                                 |
+| Topic              | SDLC Model Selection & Justification     |
 
 ---
 
@@ -21,6 +23,14 @@ The system typically includes modules for question bank management, randomized p
 The Waterfall SDLC model has been selected for the Online Examination System. The Waterfall model is a linear-sequential software development process in which development flows downward through clearly defined phases:  
 
 **Requirements → System Design → Implementation → Testing → Deployment → Maintenance**
+| Phase No. | Phase Name        |
+|----------|------------------|
+| 1        | Requirements      |
+| 2        | System Design     |
+| 3        | Implementation    |
+| 4        | Testing           |
+| 5        | Deployment        |
+| 6        | Maintenance       |
 
 Each phase must be completed and verified before moving to the next.
 
@@ -83,7 +93,7 @@ The Incremental model delivers functionality in portions (increments). For an ex
 
 The following diagram illustrates the Waterfall lifecycle for the Online Examination System:
 
-**[ See Excalidraw diagram file: exam_waterfall_diagram.excalidraw ]**
+![Waterfall Diagram](online-examination-system.png)
 
 ### Phase Breakdown
 
@@ -122,6 +132,4 @@ These characteristics align perfectly with Waterfall's sequential, phase-driven,
 
 ---
 
-## Diagram
 
-![Waterfall Diagram](online-examination-system.png)
