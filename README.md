@@ -124,4 +124,4 @@ These characteristics align perfectly with Waterfall's sequential, phase-driven,
 
 ## Diagram
 
-![Waterfall Diagram](./your-image.png)
+![Waterfall Diagram](online-examination-system.png)
