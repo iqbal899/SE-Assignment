@@ -97,12 +97,12 @@ The following diagram illustrates the Waterfall lifecycle for the Online Examina
 
 ### Diagram References
 
-For reference and editing, the original diagram is available below:
+For reference , the original diagram created using excalidraw is available below:
 
 - **Excalidraw File:** `exam-system.excalidraw`
 - **Excalidraw Link:** [Open Diagram](https://excalidraw.com/#json=Q0QE4dyWBw4wLMh-EaiuM,N8cNRM19LVe6ctoKwoVKUg)
 
-> The Excalidraw file can be opened and edited using https://excalidraw.com
+> The Excalidraw file can be opened using https://excalidraw.com
 
 ### Phase Breakdown
 
@@ -128,7 +128,7 @@ Maintenance — Bug fixes, performance monitoring, annual updates
 
 ### Flow
 
-Requirements ▶ Design ▶ Implementation ▶ Testing ▶ Deployment ▶ Maintenance  
+Requirements -> Design -> Implementation -> Testing -> Deployment -> Maintenance  
 (each phase completes before the next begins)
 
 ---
