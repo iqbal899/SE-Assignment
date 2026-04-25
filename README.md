@@ -12,6 +12,7 @@
 | Topic              | SDLC Model Selection & Justification     |
 | Submitted by             | Jinnatul Iqbal     |
 | Roll Number        | 230710007020    |
+| Batch | 2023-27     |
 
 ---
 
