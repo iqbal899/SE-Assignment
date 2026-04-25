@@ -89,14 +89,14 @@ In a market dominated by Ola and Uber, time-to-market is critical. Agile allows 
 
 The following diagram illustrates the Agile lifecycle for the Taxi Booking System. Each sprint produces a working increment of the software.
 
-![Agile Diagram](taxi-booking-system.png)
+![Agile SDLC Diagram](taxi-booking-system.png)
 
 ### Diagram References
 
 I have added the original excalidraw file and it link for reference :
 
 - **Excalidraw File:** `taxi-booking-system.excalidraw`
-- **Excalidraw Link:** [Open Diagram](https://excalidraw.com/#json=f3bWbzWOhmlCcq1IBhae9,9SEiVCTXXAy_nJfQ27dJHg)
+- **Excalidraw Link:** [See the excalidraw diagram](https://excalidraw.com/#json=f3bWbzWOhmlCcq1IBhae9,9SEiVCTXXAy_nJfQ27dJHg)
 
 > The Excalidraw file can be opened and edited using https://excalidraw.com
 
